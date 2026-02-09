@@ -8,5 +8,8 @@ run_omp:
 run_opt:
 	g++ -std=c++17 -o build/codet main_opt.cpp -fopenmp && ./build/codet
 
+run_new:
+	g++ -std=c++17 -o build/co ./others/mainnew.cpp && ./build/co
+
 dir:
 	mkdir build
