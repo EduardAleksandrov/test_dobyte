@@ -11,5 +11,8 @@ run_opt:
 run_new:
 	g++ -std=c++17 -o build/co ./others/mainnew.cpp && ./build/co
 
+run_new_else:
+	g++ -std=c++17 -o build/com ./others/main_new_else.cpp && ./build/com
+
 dir:
 	mkdir build
